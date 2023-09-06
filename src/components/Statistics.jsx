@@ -5,7 +5,7 @@ export default function Statistics({ title, stats }) {
      return (
               <section class="statistics">
          { title && <h2>{title}</h2> }
-   
+{/*    
          {stats.map(item => {
          <ul class="stat-list">
              <li key={item.id} Type={stats} class="item">
@@ -25,7 +25,7 @@ export default function Statistics({ title, stats }) {
       <span class="percentage">{item.percentage}%</span>
     </li>
            </ul>
-           })}
+           })} */}
 </section>
   )
 }
